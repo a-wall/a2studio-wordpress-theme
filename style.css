@@ -1,0 +1,131 @@
+/*
+Theme Name: A2theme
+Theme URI: http://a2studio.co.uk
+Description: A2studio theme 
+Version: 1.0.1
+Author: AJW
+Author URI: 
+Tags: Custom
+*/
+
+/* Reset CSS */
+html, body {
+	margin: 0px;
+	background-color: #6d6b64;
+	padding: 0px;
+	height: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	color: #000000;
+}
+p {
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+img {
+	background-color: #6d6b64;
+	border: 0;
+}
+a:link, a:visited {
+	color: #f37521;
+	text-decoration: none;
+	outline: none;
+}
+a:hover, a:active {
+	color: #000000;
+	text-decoration: none;
+	outline: none;
+}
+a.nav_selected {
+	color: #000000;
+}
+.fix {
+	display:block;
+}
+.logo-font {
+	color:#5D6067;
+}
+#container {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	min-height: 100%;
+}
+* html #container {
+	height: 100%
+}
+#header {
+	background-color:#C7C9C8;
+	border-bottom:1px solid #6D6B64;
+	font-size:12px;
+	height:110px;
+	padding:5px;
+}
+#footer {
+	background:none repeat scroll 0 0 #FFFFFF;
+	border-top:1px solid #6D6B64;
+	background-color:#C7C9C8;
+	float:left;
+	font-family:arial,helvetica,sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	line-height:15px;
+	margin:0 auto;
+	width: 100%
+}
+#logo {
+	display: block;
+	float: left;
+	margin-left: -2px;
+}
+div.menu { 
+	float: right;
+	width: 150px;
+	margin-right: 14px;
+}
+span.menu-title { 
+	color: #5D6067;
+	font-weight: bold;
+}
+ul.menu { 
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+#main {
+	padding: 10px;
+	overflow: hidden;
+}
+.right { float: right; }
+.left { float: left; }
+div.post-header{ 
+	display: block;
+	width: 100%; 
+	padding:5px;
+	background-color:#C7C9C8;
+}
+span.post-title { 
+	font-size: 16px;
+	font-weight: bold;
+}
+span.post-date { 
+	font-size: 9px;
+	font-weight: normal;
+}
+div.post-content{ 
+	padding:5px;
+}
+div.clear {
+	float: none;
+	padding-bottom: 15px;
+}
+.footer_space {
+padding-left:6px;
+padding-right:6px;
+}
+div.padded {
+padding-left:5px;
+padding-right:5px;
+}
